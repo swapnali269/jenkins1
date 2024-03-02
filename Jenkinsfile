@@ -1,8 +1,5 @@
 pipeline {
     agent any
-        environment {
-            PATH = "/etc/maven/bin:$PATH"
-        }
 
     stages {
         stage ('git') {
